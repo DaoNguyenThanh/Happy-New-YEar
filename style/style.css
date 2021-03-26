@@ -1,0 +1,92 @@
+/* body, head 
+{
+    margin: 0px;
+} */
+html, body {
+    /* Make the body to be as tall as browser window */
+    height: 100%;
+    background: #ff000c;
+    padding: 20px;
+  }
+  
+   .bgimg{
+     height: 80vh;
+     display: flex;
+     align-items: center;
+   }
+   .item {
+       background: yellow;
+       text-align: center;
+       color: #040404;
+       font-size: 20px;
+       font-weight: bold;
+       border-radius: 10%;
+   }
+  .item .number{
+  
+      font-size: 50px;
+  
+  }
+  .title {
+      background: #670606;
+      color: white;
+      padding: 8px;
+  }
+  
+  
+  h1.text-center {
+      color: yellow;
+      font-size: 80px;
+  }
+  
+  .slogan {
+      font-size: 35px;
+      color: yellow;
+      font-style: italic;
+  }
+  
+  
+  body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+div.countdownclock{
+  text-align: center;
+}
